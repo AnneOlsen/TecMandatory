@@ -5,7 +5,7 @@
 customCSS='create-customer.css')"></head>
 <body>
 <header th:replace="fragments/header.html"></header>
-<h2 id="customerTITEL">Kundens oplysninger</h2>
+<h2 id="customerTITEL">Kundens oplysning</h2>
 
 <form th:action="@{/create-customer}" id="customerFORM" method="POST">
     <input type="text" placeholder="Fornavn" name="firstname"/>
